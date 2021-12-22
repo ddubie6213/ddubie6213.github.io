@@ -1,11 +1,14 @@
 # main links
 main:
+  - title: "Profile"
+    url: /profile/
   - title: "Category"
     url: /categories/
  # - title: "Tag"
  #   url: /tags/
   - title: "Search"
     url: /search/ 
+  
 
 docs:
   - title: "Algorithm"
@@ -13,7 +16,6 @@ docs:
       - title: "Design and Analysis of Algorithms [MIT 6.046J]"
         url: /mit6046j/
         
-
   - title: "Optimization"
     children:
     - title: "Convex Optimization"
