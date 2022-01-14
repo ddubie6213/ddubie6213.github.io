@@ -15,13 +15,16 @@ docs:
     children:
       - title: "Design and Analysis of Algorithms [MIT 6.046J]"
         url: /mit6046j/
-        
+
   - title: "Optimization"
     children:
     - title: "Convex Optimization"
       url: /convex_optimization/
-
-
+   
+  - title: "Machine Learning"
+    children:
+    - title: "Basic Probability Theory"
+      url: /prob/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
