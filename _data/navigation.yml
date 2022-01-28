@@ -1,9 +1,9 @@
 # main links
 main:
- # - title: "Profile"
-  #  url: /profile/
-#  - title: "Category"
-#    url: /categories/
+  - title: "About"
+    url: /profile/
+  - title: "Study"
+    url: /prob/
  # - title: "Tag"
  #   url: /tags/
   #- title: "Search"
