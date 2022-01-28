@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: /profile/
+  #  url: /profile/
   - title: "Study"
     url: /prob/
  # - title: "Tag"
