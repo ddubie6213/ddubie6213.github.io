@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DDubbie"
-title_separator          : "|"
-subtitle                 : "Computer Network Researcher" # site tagline that appears below site title in masthead
+title                    : "Dong U Kim"
+title_separator          : ""
+subtitle                 : " " # site tagline that appears below site title in masthead
 name                     : "DU"
 description              : "Hi !!!"
 url                      : "https://dduubbee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true  # true, false (default)
 words_per_minute         : 200
@@ -103,8 +103,8 @@ analytics:
 # Site Author
 author:
   name             : "Dong U Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Computer Network researcher."
+  avatar           : "/assets/images/dongu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : " "
   location         : "South Korea, Ulsan"
   email            :
   links:
@@ -289,12 +289,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments:  true
+      author_profile: false
+      read_time: false
+      comments:  false
       share: true
       related: true
-      show_date: true
+      show_date: false
   # _portfolio
   - scope:
       path: ""

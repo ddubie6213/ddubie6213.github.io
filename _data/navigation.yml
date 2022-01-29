@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-  #  url: /profile/
+    url: /etc/about_me
   - title: "Study"
     url: /prob/
  # - title: "Tag"
@@ -13,7 +13,7 @@ main:
 docs:
   - title: "Algorithm"
     children:
-      - title: "Design and Analysis of Algorithms [MIT 6.046J]"
+      - title: "Design and Analysis of Algorithms"
         url: /mit6046j/
 
   - title: "Optimization"

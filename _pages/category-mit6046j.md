@@ -1,5 +1,5 @@
 ---
-title: "Design and Analysis of Algorithms [MIT 6.046J]"
+title: "Design and Analysis of Algorithms"
 layout: archive
 permalink: /mit6046j/
 author_profile: false
