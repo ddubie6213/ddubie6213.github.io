@@ -4,6 +4,7 @@ main:
     url: /etc/about_me
   - title: "Study"
     url: /prob/
+  - title: "Journal Review"
  # - title: "Tag"
  #   url: /tags/
   #- title: "Search"
@@ -25,6 +26,8 @@ docs:
     children:
     - title: "Basic Probability Theory"
       url: /prob/
+
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

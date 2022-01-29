@@ -48,6 +48,7 @@ $$
                         &= \ \Phi_{X_1}(w_1)\Phi_{X_1}(w_2)\ \ldots \ \Phi_{X_n}(w_n)
     \end{aligned}
 $$
+
 The formula above yields
 
 $$
@@ -112,7 +113,7 @@ $$
     \lim_{n\rightarrow\infty}P[Z_n \ \leq \ z] \ = \ \int_{-\infty}^{z}e^{-x^2 / 2}dx
 $$
 
-proof) Find the reason $Z_n$ approaches to *Gaussian Random Variable*
+**proof)** Find the reason $Z_n$ approaches to *Gaussian Random Variable*
 
 $$
     Z_n \ = \ \dfrac{S_n \ - \ n\mu}{\sigma\sqrt{n}} \ = \ \dfrac{1}{\sigma\sqrt{n}}\sum_{k=1}^n(X_k \ - \ \mu)
