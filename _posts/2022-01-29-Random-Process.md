@@ -101,7 +101,7 @@ The processes $X(t)$ and $Y(t)$ are **uncorrelated** if $C_{X, \ y}(t_1, \ t_2) 
 - Autocovariance
   $$
   \begin{aligned}
-    C_X(n_1, \ n_2) \ &= \ E[(X_{n_1} \ - \ m)(X_{n_2} \ - \ m] \\
+    C_X(n_1, \ n_2) \ &= \ E[(X_{n_1} \ - \ m)(X_{n_2} \ - \ m)] \\
                       &= \ 0        \qquad  \qquad  (for \ \ n_1 \ \neq \ n_2)
   \end{aligned}
   $$
