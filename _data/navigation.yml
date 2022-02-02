@@ -12,20 +12,20 @@ main:
   
 
 docs:
+  - title: "Computer Network"
+   
   - title: "Algorithm"
     children:
       - title: "Design and Analysis of Algorithms"
         url: /mit6046j/
-
-  - title: "Optimization"
-    children:
-    - title: "Convex Optimization"
-      url: /convex_optimization/
    
   - title: "Machine Learning"
     children:
     - title: "Basic Probability Theory"
       url: /prob/
+    - title: "Introduction to Reinforcement Learning"
+      url: /intro_rein/
+    
 
 
 
