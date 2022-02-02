@@ -145,4 +145,6 @@ $$
     \end{aligned}
 $$
 
-Reference : Garcia, *Probability, Statistics, and Random Processes for Electrical Engineering* PEARSON(2009) p371-413
+# Reference
+
+>Garcia, *Probability, Statistics, and Random Processes for Electrical Engineering* PEARSON(2009) p371-413

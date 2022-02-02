@@ -10,6 +10,7 @@ sidebar:
 
 # Definition of Random Process
 If every outcome $x_i \ \in \ S$ is related to the certain rule depending on time, $X$ is able to be modeled for time to $\mathit{t}$ and outcome to $\xi$ and it is given by
+
 $$
     X(t, \ \xi) \qquad t \ \in \ I
 $$
@@ -24,15 +25,19 @@ Note the figure above. At certain time $t \ = T$, the sample functions follow a 
 ##### Joint Distributions of Time Samples
 Let $X_1, \ X_2, \ldots, \ X_n$ be the k random avriables obtained by sampling the random process $X(t, \ \xi)$ at the times $t_1, \ t_2, \ldots, t_k$ 
 The joint cdf of the time from the time $t_1$ to $t_n$ is given by
+
 $$
     F_{X_1, \ X_2, \ \ldots, \ X_n}(x_1, \ x_2, \ldots, \ x_n) \ = \ P[X_(t_1) \ \leq \ x_1, \ X(t_2) \leq \ x_2, \ \ldots, \ X(t_k) \ \leq \ x_n]
 $$
+
 also, the joint pdf is given by
+
 $$
     f_{X_1, \ X_2, \ldots, \ X_n}(x_1, \ x_2, \ \ldots, \ x_n) \ = \ \dfrac{\partial}{\partial x_1}\dfrac{\partial}{\partial x_2}\ \ldots \ \dfrac{\partial}{\partial x_n}F_{X_1, \ X_2, \ \ldots, \ X_n}(x_1, \ x_2, \ldots, \ x_n) 
 $$
 
 The joint pmf is given by 
+
 $$
     p_{X_1, \ X_2, \ \ldots \ X_n}(x_1, \ x_2, \ \ldots, \ x_n) \ = \ P[X(t_1) \ = x_1, \ X(t_2) \ = \ x_2, \ \ldots \ X(t_k) \ = \ x_k]
 $$
@@ -56,7 +61,9 @@ $$
 $$
     C_X(t_1, \ t_2) \ = \ E[\{ X(t_1) \ - \ m_X(t_1)\} \{ X(t_2) \ - \ m_X(t_2)  \}]
 $$
+
 The expansion the formula above is given by
+
 $$
     \begin{aligned}
             C_X(t_1, \ t_2) \ &= \ E[X(t_1)X(t_2)] - m_{X(t_1)}m_{X(t_2)} \\
@@ -93,8 +100,10 @@ The processes $X(t)$ and $Y(t)$ are **uncorrelated** if $C_{X, \ y}(t_1, \ t_2) 
   $m_x(n) \ = \ E[X_n] \ = \ m$
 - Autocovariance
   $$
+  \begin{aligned}
     C_X(n_1, \ n_2) \ &= \ E[(X_{n_1} \ - \ m)(X_{n_2} \ - \ m] \\
                       &= \ 0        \qquad  \qquad  (for \ \ n_1 \ \neq \ n_2)
+  \end{aligned}
   $$
 
 #### Independent Increments and Markov Properties of Random Processed
@@ -186,4 +195,7 @@ Let $\vert t_1 \ - t_2 \vert \ = \ \tau$
 - $R_X(t_1, \ t_2) \ = \ R_X(\tau)$
 
 
-Reference : Garcia, *Probability, Statistics, and Random Processes for Electrical Engineering* PEARSON(2009) p499-568
+
+# Reference
+
+>Garcia, *Probability, Statistics, and Random Processes for Electrical Engineering* PEARSON(2009) p499-568
