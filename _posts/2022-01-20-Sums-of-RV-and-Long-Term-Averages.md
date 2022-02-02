@@ -144,3 +144,5 @@ $$
                         &\rightarrow \ e^{-w^2/2} \ \ as \ \ n\rightarrow\infty
     \end{aligned}
 $$
+
+Reference : Garcia, *Probability, Statistics, and Random Processes for Electrical Engineering* PEARSON(2009) p371-413
