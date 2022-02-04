@@ -16,6 +16,7 @@ $$
         P[(X_{k+1} \ = \ x_{k+1} \ | \ X(t_k) \ = \ x_k, \ \ldots \, X(t_1) \ = \ x_1)] \ = \ P[X(t_{k+1} \ = \ x_{k+1} \ | \ x_k)]
     \end{aligned}
 $$
+
 Generally, $X_{k+1}$ and $X_k$ respectively denote future and present state.
 
 ##### Markov Chain
@@ -34,14 +35,20 @@ $$
         p_j(0) \ &\triangleq \ P[X_0 \ = \ j]
     \end{aligned}
 $$
+
 Let $P[X_{n+1} \ = \ j \ | \ X_n] \ = \ p_{ij}$ for all $n$. $P[X_n \ = \ i_n, \ldots, \ X_0 \ = \ i_0]$ is
+
 $$
+
     \begin{aligned}
         P[X_n \ = \ i_n, \ \ldots, \ X_0 \ = \ i_0] \ &= \ p_{i_{n-1}, \ i_n}\ldots p_{i_1, \ i_0}(0)
     \end{aligned}
 $$
+
 The state **transition probability matrix** is given by
+
 $$
+
     P \ = \ \begin{bmatrix}
         p_{00} & p_{01} & p_{02} & \ldots \\
         p_{10} & p_{11} & p_{12} & \ldots \\
