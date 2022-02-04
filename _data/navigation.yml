@@ -5,6 +5,7 @@ main:
   - title: "Study"
     url: /prob/
   - title: "Journal Review"
+    url: /data_net/
  # - title: "Tag"
  #   url: /tags/
   #- title: "Search"
@@ -27,7 +28,8 @@ docs:
       url: /intro_rein/
     
 
-
+journal_review:
+  - title: "Journal"
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

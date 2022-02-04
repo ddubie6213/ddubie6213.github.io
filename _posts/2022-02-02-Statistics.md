@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "(5) Statistics"
+title:  "(6) Statistics"
 categories: prob
 author_profile: false
 use_math: true
