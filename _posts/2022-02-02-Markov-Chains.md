@@ -147,7 +147,8 @@ $$
     f_i \ < \ 1
 $$
 
-In other word,
+In other words,
+
 $$
     \begin{cases}
         f_i \ = \ 1 & \mathit{state \ i \  \ is \ \ recurrent} \\
@@ -157,7 +158,7 @@ $$
 
 We say that state i has **period** d if it can only reoccur at times that are mutiples of d. On the other hand, we say that state i is **aperiodic** if it has period d = 1.
 
-In other word
+In other words,
 $$
     p_{ii}(n \ + \ kd) \ \neq \ 0 \qquad
     \begin{cases}
