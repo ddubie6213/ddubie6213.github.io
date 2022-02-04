@@ -49,7 +49,11 @@ $$
     \end{bmatrix}
 $$
 
-Recall $1 \ = \ \sum_j P[X_{n+1} \ = \ j \ | \ X_n \ = \ i] \ = \ \sum_j p_{ij}$
+Note 
+
+$$ 
+    1 \ = \ \sum_j P[X_{n+1} \ = \ j \ | \ X_n \ = \ i] \ = \ \sum_j p_{ij} 
+$$
 
 #### The n-step Transition Probabilities
 Let $P(n) \ = \ \{ p_{ij}(n) \}$ be *the matrix of n-step transtion probabilities*, wher
@@ -57,7 +61,11 @@ $$
     p_{ij}(n) \ = \ P[X_{n+k} \ = \ j \ | \ X_k \ = \ j]    \qquad \qquad (for \  \ n \ \geq \ 0, \ i, \ j \ \geq \ 0)
 $$
 
-$P[X_{n+k} \ = \ j \ | \ X_k \ = \ i] \ = \ P[X_n \ = \ j \ | \ X_k \ = \ i]$ becasue $X(t)$ is a *markov process*.
+As $X(t)$ is a *markov process*, note
+
+$$ 
+    P[X_{n+k} \ = \ j \ | \ X_k \ = \ i] \ = \ P[X_n \ = \ j \ | \ X_k \ = \ i] 
+$$ 
 
 ###### Chapman-Kolmogorov Equation
 $$
@@ -125,12 +133,14 @@ $$
         \mathbf{\pi} \ &= \ \mathbf{\pi}P     
     \end{aligned}
 $$
-Therefore, 
+
+Therefore,
+
 $$
     \mathbf{p}(n) \ = \ \pi P^n \ = \ \pi
 $$
 
-# Claases of States, Recurrence Properties and Limiting Probabilites
+# Classes of States, Recurrence Properties and Limiting Probabilites
 
 ##### Classes of States
 - For some $n \ \geq \ 0$, $p_{ij}(n) \ > \ 0$, state i is **accessible** from state j.
