@@ -36,7 +36,8 @@ $$
     \end{aligned}
 $$
 
-Let $P[X_{n+1} \ = \ j \ | \ X_n] \ = \ p_{ij}$ for all $n$. $P[X_n \ = \ i_n, \ldots, \ X_0 \ = \ i_0]$ is
+Let $P[X_{n+1} \ = \ j \ | \ X_n] \ = \ p_{ij}$ for all n. 
+Then,
 
 $$
 
